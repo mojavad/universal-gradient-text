@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { GradientText } from "universal-text-gradient";
+import { GradientText } from "universal-gradient-text";
 
 export default function Native() {
   return (
@@ -10,7 +10,7 @@ export default function Native() {
         colors={["#4ebcf4", "#6b40ba"]}
         direction="down"
       >
-        Universal Text Gradient
+        Universal Gradient Text
       </GradientText>
       <Text style={{ fontSize: 55, fontWeight: "700" }}>🌌</Text>
       <StatusBar style="light" />

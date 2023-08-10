@@ -14,7 +14,7 @@ import Image from "next/image";
 import banner from "../asset/banner.png";
 import Link from "next/link";
 
-import { GradientText } from "universal-text-gradient";
+import { GradientText } from "universal-gradient-text";
 
 import styles from "../styles/index.module.css";
 import { Button, Page, Text } from "@geist-ui/core";
@@ -55,11 +55,11 @@ export default function Web() {
                 colors={["#4ebcf4", "#6b40ba"]}
                 direction="down"
               >
-                Universal Text Gradient
+                Universal Gradient Text
               </GradientText>
               <span style={{ fontSize: "2rem", paddingLeft: 10 }}> 🌌</span>
             </div>
-            <Link href="https://github.com/mojavad/universal-text-gradient">
+            <Link href="https://github.com/mojavad/universal-gradient-text">
               <Button iconRight={<Github />} auto px={0.6} />
             </Link>
           </div>
@@ -87,7 +87,7 @@ export default function Web() {
           The library works with Expo and NextJS out of the box. To install
           simply run:
         </Text>
-        <Snippet>yarn add universal-text-gradient</Snippet>
+        <Snippet>yarn add universal-gradient-text</Snippet>
         <Text small>
           Under the hood, the library has dependencies on{" "}
           <Code>expo-linear-gradient</Code> &{" "}
@@ -105,7 +105,7 @@ export default function Web() {
   colors={["#4ebcf4", "#6b40ba"]}
   direction="rtl"
 >
-  Universal Text Gradient
+  Universal Gradient Text
 </GradientText>`}
         </Code>
 

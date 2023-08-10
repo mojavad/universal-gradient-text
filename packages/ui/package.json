@@ -1,12 +1,12 @@
 {
-  "name": "universal-text-gradient",
-  "description": "A library for text gradients that works on web and mobile universal RN apps.",
-  "version": "0.1.1",
+  "name": "universal-gradient-text",
+  "description": "A library for gradient texts that works on web and mobile universal RN apps.",
+  "version": "0.1.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
   "author": "Mo Khazali",
-  "homepage": "https://github.com/mojavad/universal-text-gradient",
+  "homepage": "https://github.com/mojavad/universal-gradient-text",
   "scripts": {
     "build": "tsup ",
     "dev": "tsup --watch",
