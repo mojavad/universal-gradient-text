@@ -12,6 +12,7 @@ import {
 } from "@geist-ui/core";
 import Image from "next/image";
 import banner from "../asset/banner.png";
+import Link from "next/link";
 
 import { GradientText } from "universal-text-gradient";
 
@@ -57,7 +58,9 @@ export default function Web() {
               </GradientText>
               <span style={{ fontSize: "2rem", paddingLeft: 10 }}> 🌌</span>
             </div>
-            <Button iconRight={<Github />} auto px={0.6} />
+            <Link href="https://github.com/mojavad/universal-text-gradient">
+              <Button iconRight={<Github />} auto px={0.6} />
+            </Link>
           </div>
           <Divider />
         </Page.Header>
