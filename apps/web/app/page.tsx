@@ -50,6 +50,7 @@ export default function Web() {
           <div style={{ display: "flex" }}>
             <div style={{ flex: 1 }}>
               <GradientText
+                // @ts-ignore
                 style={{ fontWeight: "700", fontSize: "2rem" }}
                 colors={["#4ebcf4", "#6b40ba"]}
                 direction="down"
