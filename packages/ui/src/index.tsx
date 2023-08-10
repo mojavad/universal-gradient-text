@@ -1,1 +1,4 @@
-export { Button, type ButtonProps } from "./button";
+export {
+  default as GradientText,
+  type GradientProps,
+} from "./GradientText/GradientText";

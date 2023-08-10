@@ -1,19 +1,19 @@
 import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { Button } from "ui";
+import { GradientText } from "universal-text-gradient";
 
 export default function Native() {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Native</Text>
-      <Button
-        onClick={() => {
-          console.log("Pressed!");
-          alert("Pressed!");
-        }}
-        text="Boop"
-      />
-      <StatusBar style="auto" />
+      <GradientText
+        style={{ fontSize: 32, fontWeight: "700" }}
+        colors={["#4ebcf4", "#6b40ba"]}
+        direction="down"
+      >
+        Universal Text Gradient
+      </GradientText>
+      <Text style={{ fontSize: 55, fontWeight: "700" }}>🌌</Text>
+      <StatusBar style="light" />
     </View>
   );
 }
@@ -21,7 +21,7 @@ export default function Native() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#0c0c0c",
     alignItems: "center",
     justifyContent: "center",
   },
