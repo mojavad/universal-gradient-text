@@ -10,8 +10,6 @@ node_modules
 .DS_Store
 *.pem
 
-# build
-dist
 
 # debug
 npm-debug.log*

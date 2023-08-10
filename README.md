@@ -11,3 +11,7 @@ A universal text component with a gradient overlay that works on web and mobile.
 ```
 yarn add universal-text-gradient
 ```
+
+### Usage
+
+For instructions on how to use the library, see the [docs website](https://universal-text-gradient.vercel.app/).
