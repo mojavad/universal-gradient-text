@@ -29,6 +29,8 @@ On Next, you will need to follow extra steps to transpile the library. Update yo
 transpilePackages: [
   ...
   'universal-gradient-text',
+  'expo-linear-gradient',
+  '@react-native-masked-view'
 ],
 ...
 ```
