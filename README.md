@@ -12,6 +12,27 @@ A universal text component with a gradient overlay that works on web and mobile.
 yarn add universal-gradient-text
 ```
 
+#### Expo
+
+In Expo apps, you will also need to add the following dependencies:
+
+```
+npx expo install expo-linear-gradient @react-native-masked-view/masked-view
+```
+
+#### NextJS
+
+On Next, you will need to follow extra steps to transpile the library. Update your `next.config.js`:
+
+```
+...
+transpilePackages: [
+  ...
+  'universal-gradient-text',
+],
+...
+```
+
 ### Usage
 
 For instructions on how to use the library, see the [docs website](https://universal-gradient-text.vercel.app/).

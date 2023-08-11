@@ -6,7 +6,7 @@ import NativeGradient from "./NativeGradient";
 export type Direction = "ltr" | "rtl" | "up" | "down";
 
 export type GradientProps = {
-  direction: Direction;
+  direction?: Direction;
   colors: string[];
 } & TextProps;
 

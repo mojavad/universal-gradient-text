@@ -96,6 +96,33 @@ export default function Web() {
           gradients are done with CSS.
         </Text>
 
+        <Text h5 marginTop={1} marginBottom={1}>
+          Expo
+        </Text>
+        <Text p>
+          In Expo apps, you will also need to add the following dependencies:
+        </Text>
+        <Snippet>
+          npx expo install expo-linear-gradient
+          @react-native-masked-view/masked-view
+        </Snippet>
+
+        <Text h5 marginTop={1} marginBottom={1}>
+          NextJS
+        </Text>
+        <Text p>
+          On Next, you will need to follow extra steps to transpile the library.
+          Update your <Code>next.config.js</Code>:
+        </Text>
+        <Code className="language-jsx" block my={0} mx={0}>
+          {`...
+transpilePackages: [
+  ...
+  'universal-gradient-text',
+],
+...`}
+        </Code>
+
         <Text h3 marginTop={2}>
           Usage
         </Text>

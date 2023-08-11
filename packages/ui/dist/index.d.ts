@@ -3,7 +3,7 @@ import { TextProps } from 'react-native';
 
 type Direction = "ltr" | "rtl" | "up" | "down";
 type GradientProps = {
-    direction: Direction;
+    direction?: Direction;
     colors: string[];
 } & TextProps;
 declare const _default: ({ direction, colors, ...props }: GradientProps) => React.JSX.Element;
