@@ -17,7 +17,7 @@ import Link from "next/link";
 import { GradientText } from "universal-gradient-text";
 
 import styles from "../styles/index.module.css";
-import { Button, Page, Text } from "@geist-ui/core";
+import { Button, Page, Text, Link as GeistLink } from "@geist-ui/core";
 import { Github } from "@geist-ui/icons";
 
 export default function Web() {
@@ -111,9 +111,9 @@ export default function Web() {
       <Text p>
         On Next, you will need to follow extra steps to transpile the library.
         Your project will need to be{" "}
-        <Link href="https://docs.expo.dev/guides/using-nextjs/" icon color>
+        <GeistLink href="https://docs.expo.dev/guides/using-nextjs/" icon color>
           setup to use Expo with React Native
-        </Link>
+        </GeistLink>
         . Update your <Code>next.config.js</Code>:
       </Text>
       <Code className="language-jsx" block my={0} mx={0}>
